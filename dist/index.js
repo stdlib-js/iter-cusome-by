@@ -1,5 +1,0 @@
-"use strict";var b=function(r,e){return function(){return e||r((e={exports:{}}).exports,e),e.exports}};var q=b(function(F,g){
-var f=require('@stdlib/utils-define-nonenumerable-read-only-property/dist'),h=require('@stdlib/assert-is-iterator-like/dist'),d=require('@stdlib/assert-is-function/dist'),T=require('@stdlib/assert-is-positive-integer/dist').isPrimitive,l=require('@stdlib/error-tools-fmtprodmsg/dist'),a=require('@stdlib/symbol-iterator/dist');function c(r,e,n,m){var o,i,u,v,s;if(!h(r))throw new TypeError(l('null3v',r));if(!T(e))throw new TypeError(l('null45',e));if(!d(n))throw new TypeError(l('null3N',n));return o=0,s=-1,i=!1,u={},f(u,"next",y),f(u,"return",w),a&&d(r[a])&&f(u,a,x),u;function y(){var t;return v?{done:!0}:(t=r.next(),t.done?(v=!0,t):(s+=1,!i&&n.call(m,t.value,s)&&(o+=1,o===e)?(i=!0,{value:!0,done:!1}):{value:i,done:!1}))}function w(t){return v=!0,arguments.length?{value:t,done:!0}:{done:!0}}function x(){return c(r[a](),e,n,m)}}g.exports=c
-});var p=q();module.exports=p;
-/** @license Apache-2.0 */
-//# sourceMappingURL=index.js.map
