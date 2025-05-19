@@ -114,8 +114,8 @@ The returned [iterator][mdn-iterator-protocol] protocol-compliant object has the
 
 A `predicate` function is provided two arguments:
 
--   **value**: iterated value
--   **index**: iteration index (zero-based)
+-   **value**: iterated value.
+-   **index**: iteration index (zero-based).
 
 To set the `predicate` function execution context, provide a `thisArg`.
 
@@ -164,7 +164,7 @@ var count = ctx.count;
 <!-- Package usage notes. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
 
 <section class="notes">
-   
+
 ## Notes
 
 -   A `predicate` function is invoked for each iterated value until the `nth` truthy `predicate` function return value. The returned iterator continues iterating until it reaches the end of the input iterator, even after the condition is met.
@@ -255,7 +255,7 @@ See [LICENSE][stdlib-license].
 
 ## Copyright
 
-Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
+Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 </section>
 
