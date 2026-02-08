@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import iterCuSomeBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-cusome-by@deno/mod.js';
+import iterCuSomeBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-cusome-by@v0.1.1-deno/mod.js';
 ```
 
 #### iterCuSomeBy( iterator, n, predicate\[, thisArg] )
@@ -165,7 +165,7 @@ var count = ctx.count;
 
 ```javascript
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-iter-randu@deno/mod.js';
-import iterCuSomeBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-cusome-by@deno/mod.js';
+import iterCuSomeBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-cusome-by@v0.1.1-deno/mod.js';
 
 function threshold( r ) {
     return ( r > 0.95 );
